@@ -8,7 +8,10 @@ public class Add {
     public void setValue(int a, int b) {
     }
 
-    public int calculate() {
+    public int calculate(int sum) {
+    	
+    	sum = a+b;
+    	return sum;
     }
 
 }
